@@ -1,15 +1,15 @@
 
 html {
     padding: 0px;
-    margin: 0px;
+    margin: 10px;
     border: 10px solid greenyellow;
     background-color: rgb(222, 208, 208);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 body {
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
-    border: 10px solid rgb(246, 24, 172);
+    background-color: antiquewhite;
 }
 .logo{    
     border-radius: 50px;

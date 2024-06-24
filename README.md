@@ -51,8 +51,14 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
         </style>
         -->
 
- Learning navegation : it a best practice add the navegation inside the header
- Learning section and main
- Question: if I create a style block on the index page. Only, I can use inside an component with the word property "class = logo"?
+ Learning navegation : it a best practice add the navegation inside the header. In some company the navegation can be outside the header, I should ask why it is outside the header.
+ Learning how to use <section> and <section> tags and . I wa using  title for <h1> and description for <h5>
+ Learning how to use <article> and <aside > using <div> tag ( e.g: page1)
+ Learning how to add advertising ( e.g: page1)
+ Introduction of <form> tag and input.
+ Question1 : if I create a style block on the index page. Only, I can use inside an component with the word property "class = logo"?
+ Question2: On the page1 the style.css file was not apply to the <section><div>. Why?
+ To Run index.html: copy file index.htmt, page1.html, page2.html, page3.htl from class3 folder to the root of HTML folder 
+ Question 3: the <form> tag should be always into the <main> or <footer> block?
 # Homework3
-  To Run index.html: copy file index.html and page1.html from class3 folder to the root of HTML folder 
+  No homework 

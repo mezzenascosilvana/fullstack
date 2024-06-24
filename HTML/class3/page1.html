@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page1  Class3 </title>
-    <link rel="stylesheet" href="./css/styles.css"> 
+    <title>Page1 Class3 </title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <!-- Using header and footer, I will modify the default attribute of my header and footer -->
-        <header style="border:10px red solid">
-            <h1 style="margin: 0px 0px 80px 80px" id="class3" name="class3">CLASS_3 &amp; HOMEWORK_3
-                <img class="logo" src="img/logo.JPG" alt="my logo" />
-            </h1>
-            <h2 id="class3" class="class3" name="class3">CLASS_2</h2>
+    <header style="border:5px red solid">
+        <h1 style="margin: 0px 0px 80px 80px" id="class3" name="class3">CLASS_3 &amp; HOMEWORK_3
+            <img class="logo" src="img/logo.JPG" alt="my logo" />
+        </h1>
+        <h2 id="class3" class="class3" name="class3">CLASS_3</h2>
         <!-- Using navegation -->
         <nav>
             <ul>
@@ -25,18 +27,38 @@
 
             </ul>
         </nav>
-        </header>
-        
-        <main>
-            <section>
-             <h1>Page 1</h1>  
-              <article> 
-                This is my first article for  page 1 
-                <br />     
-              </article>  
-              <a href ="./index.html"> GO back</a>
-            </section>
-            
+    </header>
+
+    <section>
+        <section>
+            <!-- Div tag is using to divide your page in multiple parts -->
+            <div style="border: 10px rgb(115, 196, 228) solid; width :68%; float:left">
+                <h1>Page 1</h1>
+                <h5>On this page I am talking about the article and aside tags. the article tag has a style </h5>
+                <article>
+                    This is my first article for page 1
+                    <br />
+                </article>
+                <a href="./index.html"> Go back</a>
+                
+               
+            </div>
+            <div style="border: 10px black solid; width:30%; float:right">
+                <!-- the aside doesnt appear by default on the right side, I should coding -->
+                <aside>
+                    <h3>How do you create an aside?</h3>
+                    <!-- adding advertising, target= _blacnk : it open the image in a new tab on the browser-->
+                    <a href="https://www.adverts.ie/high-heels/m-s-black-leather-heels-sz-4-5-uk/34196600"
+                    target="_blank"
+                    >
+                        <img src="https://media.adverts.ie/eyJidWNrZXQiOiJtZWRpYS5hZHNpbWcuY29tIiwia2V5IjoiMmY1NjZmOTRjZjZiMDdlNTcwZWJhMjMxYzRlMDYyYzE0NzAyNDU2OGM2ZWI2ZDMwZGE0NWIyOTQ5YWZkMmU0Mi5qcGciLCJvdXRwdXRGb3JtYXQiOiJqcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMTgsImhlaWdodCI6MTM3fX19?signature=5ad280aa2ba595fd3cd882559ee6393c90a1ca40884b4a56f41934757183dd02" />
+                    </a>
+                </aside>
+            </div>
+
+        </section>
+
         </main>
 </body>
+
 </html>
