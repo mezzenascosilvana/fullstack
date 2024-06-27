@@ -1,4 +1,4 @@
-# fullstack
+# FULL STACK NOTES PER CLASS 
 This is a Full Stack course by Dublin School.
 # Scope of the framework
 Html5, CSs and JavaScript Framework ordered by class, also, each class contain the homework
@@ -12,9 +12,18 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
  # Homework1
     To Run index.html: copy file index.html and page1.html from class1 folder to the root of HTML folder 
 
- # Class 2 : in progress
+ # Class 2 : 
+  Learning practice style
+  Introduction to global style.// block with diferentes styles to avoid to write a single style in each lline
+  Question ? When should I use in a <style> for example border-radius: 50%; o border-radius: 50px;
+  Remmeber each component has a marging and padding by default. they are present in each single component or tag by default.
+  Learning <table> tag and their structure
+  Review the <a> and the <href> tag // class 3 I have more practice
+  Question? why the table is on the left if I have an style to center the text?
+  Question 2? why my video isnt reproducing
+  Introduction to <asid> and <section tags> . Example o the page with aside is RTE website.
  # Homework 2
-    To Run index.html: copy file index.html and page1.html from class2 folder to the root of HTML folder 
+     No homework  
  # Class 3 : 
  Structure about HTML: header and footer
  Introduction of block with style
@@ -62,3 +71,10 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
  Question 3: the <form> tag should be always into the <main> or <footer> block?
 # Homework3
   No homework 
+
+# Class 4: in progress
+
+
+# Class: 25062024
+ End points to play : https://jsonplaceholder.typicode.com/
+                     https://dog.ceo/dog-api/documentation/breed
