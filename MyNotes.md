@@ -8,6 +8,11 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
  Environment Setup
  General concepts
  Folder structure for the framework
+ How can I validate the html sintaxis ?
+ => https://validator.w3.org/
+ => https://www.freeformatter.com/html-validator.html
+ => for Fire fox: I have HTML 5 Validator Add ons plug
+
  Question: No question
  # Homework1
     To Run index.html: copy file index.html and page1.html from class1 folder to the root of HTML folder 
@@ -110,7 +115,12 @@ Learning how to apply style to a specify component find it by type, id, name. ( 
    Question2: I dont know if the point 5 was implemented properly. 
 #  HomeWork4:
   I need the slides for this class to do it.
-  
+# Class 5 and 6 06102024 /06112024:
+Review style "Rounded Corned"
+Review style Shadow: this style can be applied to the boxes and text =>"Box Shadow", "Text Shadow". On class 4 I have an example of box shadow.
+
+
+
 # Class: 25062024
  End points to play : https://jsonplaceholder.typicode.com/
                      https://dog.ceo/dog-api/documentation/breed
