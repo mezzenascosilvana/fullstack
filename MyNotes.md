@@ -129,7 +129,7 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 1. Qustion: the last function from "myfirstscript.js" doesnt work. Why?
 
 ** **
-#### Class 7:
+### Class 7:
 - Learning how to use the console log: I can write on the console a big portion of the code and it runs.
 - For exemple: var age =18
 - console.log("can drink")
@@ -141,6 +141,6 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 - Research: how should I use Jquery, because it looks intresting. In the market developers use React, because Jquery is old librery.
 1. Question : innerHTML doesnt work for me. could you check the file "mysecondscritpt.js"?
 ** **
-#### Class: 25062024
+### Class: 25062024
 - End points to play : https://jsonplaceholder.typicode.com/
                        https://dog.ceo/dog-api/documentation/breed
