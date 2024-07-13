@@ -25,7 +25,8 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 - Review the "a" and the "href" tag // class 3 I have more practice
 - Introduction to "asid" and "section" tags
 - Example of the page with "<aside>" is RTE website
-1. Question? When should I use in a "style" for example border-radius: 50%; o border-radius: 50px;
+
+1. $${\color{red}Question? When should I use in a "style" for example border-radius: 50%; o border-radius: 50px;}$$
 2. Question? why the table is on the left if I have an style to center the text?
 3. Question? why my video isnt reproducing
  
