@@ -1,34 +1,35 @@
-## FULL STACK NOTES PER CLASS ##
+# FULL STACK NOTES PER CLASS #
 This is a Full Stack course by Dublin School.
-# Scope of the framework 
+## Scope of the framework ##
 Html5, CSs and JavaScript Framework ordered by class, also, each class contain the homework
-# Class1 :
+### Class1 : ##
  - Learning Contacts
  - Learning basic structure of HTML
  - Setup the environment
  - General concepts
  - Learning what are the structure folder for the framework
  - How can I validate the html sintaxis ?
-  -  option a)  https://validator.w3.org/
-  - option b) https://www.freeformatter.com/html-validator.html
-  - oprion c) for Fire fox: I have HTML 5 Validator Add ons plug
+  - 1. https://validator.w3.org/
+  - 2. https://www.freeformatter.com/html-validator.html
+  - 3. for Fire fox: I have HTML 5 Validator Add ons plug
  1. Question: No question
- # Homework1
+ ## Homework1 ##
  - To Run index.html: copy file index.html and page1.html from class1 folder to the root of HTML folder 
 
- # Class 2 : 
-  Learning and practicing style
-  Introduction to global style.// block with diferentes styles to avoid to write a single style in each lline
-  Question ? When should I use in a <style> for example border-radius: 50%; o border-radius: 50px;
-  Remmeber each component has a marging and padding by default. they are present in each single component or tag by default.
-  Learning <table> tag and their structure
-  Review the <a> and the <href> tag // class 3 I have more practice
-  Question? why the table is on the left if I have an style to center the text?
-  Question 2? why my video isnt reproducing
-  Introduction to <asid> and <section tags> . Example of the page with <aside> is RTE website.
- # Homework 2
-     No homework  
- # Class 3 : 
+## Class 2 : ##
+- Learning and practicing style
+- Introduction to global style.// block with diferentes styles to avoid to write a single style in each lline
+ - Remmeber each component has a marging and padding by default. they are present in each single component or tag by default.
+- Learning <table> tag and their structure
+- Review the <a> and the <href> tag // class 3 I have more practice
+- Introduction to <asid> and <section tags> . Example of the page with <aside> is RTE website.
+1.  Question ? When should I use in a <style> for example border-radius: 50%; o border-radius: 50px;
+2. Question? why the table is on the left if I have an style to center the text?
+3. Question 2? why my video isnt reproducing
+ 
+## Homework 2 // No homework  ## 
+
+## Class 3 : ##
  Structure about HTML: header and footer
  Introduction of block with style
  Each html component like h1 has by default some values ( margin, widht, height) but I can modify them with the stlyle block  
