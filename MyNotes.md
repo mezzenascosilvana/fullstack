@@ -1,8 +1,8 @@
-# FULL STACK NOTES PER CLASS 
+## FULL STACK NOTES PER CLASS ##
 This is a Full Stack course by Dublin School.
-# @@  Scope of the framework @@ 
+# Scope of the framework 
 Html5, CSs and JavaScript Framework ordered by class, also, each class contain the homework
-# @@  Class1 : @@ 
+# Class1 :
  - Learning Contacts
  - Learning basic structure of HTML
  - Setup the environment
@@ -12,9 +12,8 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
   -  option a)  https://validator.w3.org/
   - option b) https://www.freeformatter.com/html-validator.html
   - oprion c) for Fire fox: I have HTML 5 Validator Add ons plug
-
- ``` Question: No question
- # ```  Homework1
+ 1. Question: No question
+ # Homework1
  - To Run index.html: copy file index.html and page1.html from class1 folder to the root of HTML folder 
 
  # Class 2 : 
