@@ -34,9 +34,9 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 ### Class3: 
 - Structure about HTML: header and footer
 - Introduction of block with style
-- Each html component like h1 has by default some values (margin, widht, height) but I can modify them with the stlyle block  
+- Each html component like h1 has by default some values (margin, widht, height) but I can modify them with the stlyle block.  
 - I can apply style to my html page and my body.
-- <! -- Each html component like h1 has by default some values (margin, widht, height) but I can modify them with the
+  - <! -- Each html component like h1 has by default some values (margin, widht, height) but I can modify them with the
         stlyle block border-radius: round edges width, height: dimentions object-fit: border: color of the border //
         there is diferent way to select color, rgb , #number or witht name of the color padding : is the distance
         between the image with the next element <stlyle>
@@ -68,7 +68,7 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 
 - Learning navegation : it a best practice add the navegation inside the header. In some company the navegation can be outside the header, I should ask why it is outside the header
 - Learning how to use "section" tags. It was using  title for "h1" and description for "h5"
-- Learning how to use "<article>" and "aside" using "div" tag ( e.g: page1)
+- Learning how to use "article" tag  and "aside" using "div" tag ( e.g: page1)
 - Learning how to add advertising (e.g: page1)
 - Introduction of "form" tag and input
 - To Run index.html: copy file index.htmt, page1.html, page2.html, page3.htl from class3 folder to the root of HTML folder 
@@ -97,10 +97,10 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
   - what is the padding for the <form> tag, it is providing by the <main> tag.
   - I SHOULD FOLLOW THE HTML STRUCTURE
 - How can I find the color ? // the colour is a hash number and it is provider by designer
- - a) Type #number whatever number and you will see the menu with the colors
- - b) Type the name of the color e.g : red
- - c) Type rgb; you will see the menu with the colors
-1. Question: why the border of the input tag didnt appear in red.
+ - 1. Type #number whatever number and you will see the menu with the colors
+ - 2. Type the name of the color e.g : red
+ - 3. Type rgb; you will see the menu with the colors
+1. Question: why the border of the input tag didnt appear in red
 2. Question: when should I use ( rgb or rgba ) ? ( e.g: border: 5px solid rgb(94, 37, 238);  box-shadow: 0 0 10px rgba(27, 26, 29);)
 - Group the <input>tags using <fieldset>  tag. feldset tag use legend tag 
 - Input=> type = checkbox // you can check or uncheck it
@@ -111,9 +111,9 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 
 #### WorkClass4: 
 - There isnt homework. 
-- There is a classwork : Page called " workClass4.html
-1. Question: is there a way to mark all the elements <ol> as bold inside the <style> section or I should do individually?
-2. Question2: I dont know if the point 5 was implemented properly. 
+- There is a classwork : Page called "workClass4.html"
+1. Question: is there a way to mark all the elements <ol> as bold inside the "style" tag section or I should do individually?
+2. Question: I dont know if the point 5 was implemented properly. 
 
 #### HomeWork4:
 - I need the slides for this class to do it.
@@ -129,8 +129,8 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 
 ####  HomeWork 6 second part:
 1. Qustion 1: the last function from "myfirstscript.js" doesnt work. Why?
-** **
 
+** **
 #### Class 7:
 - Learning how to use the console log: I can write on the console a big portion of the code and it runs.
 - For exemple: var age =18
