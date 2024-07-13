@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS_7  &amp; CLASSWORK_7</title>
+    <!-- Learning to use link tag to apply the same style to diferents pages instead repeat style block-->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- Using header and footer, I will modify the default attribute of my header and footer -->
+   
+        <div>
+            <h1 style="margin: 0px 0px 80px 80px" id="class3" name="class3">CLASS_7  &amp; CLASSWORK_7 </h1>  
+            <h2 id="class3" class="class3" name="class3">CLASS_7</h2>
+        </div>
+        <div class="header-buttons">
+            <button>"hi"</button>
+            <button>"Chao"</button>
+        </div>
+        <!-- Using navegation con div -->
+        <div class="nav-container b">
+            <nav>
+                <ul>
+                    <!-- Fake anchor  with onclick method-->
+                    <li><a href="#practice1" onclick="loadContent('practice1')"> "Exercise 1" </a></li>
+                    <br />
+                    <li><a href="#practice2"onclick="loadContent('practice2')"> "Exercise 2" </a></li>
+                    <br />
+                    <li><a href="#practice3"onclick="loadContent('practice3')"> "Exercise 3" </a></li>
+                    <br />
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <textarea class="main-content" id="main-content"> Main Content</textarea>
+        </div>
+
+</body>
+
+<!-- calling my js file. it should be in the end of the body for the time  -->
+<script src="js/mysecondscript.js"></script>

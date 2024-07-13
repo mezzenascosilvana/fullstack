@@ -1,21 +1,21 @@
 # FULL STACK NOTES PER CLASS 
 This is a Full Stack course by Dublin School.
-# Scope of the framework
+@@  Scope of the framework @@ 
 Html5, CSs and JavaScript Framework ordered by class, also, each class contain the homework
-# Class1 : 
- Contacts
- Basic structure
- Environment Setup
- General concepts
- Folder structure for the framework
- How can I validate the html sintaxis ?
- => https://validator.w3.org/
- => https://www.freeformatter.com/html-validator.html
- => for Fire fox: I have HTML 5 Validator Add ons plug
+@@  Class1 : @@ 
+ - Learning Contacts
+ - Learning basic structure of HTML
+ - Setup the environment
+ - General concepts
+ - Learning what are the structure folder for the framework
+ - How can I validate the html sintaxis ?
+  -  option a)  https://validator.w3.org/
+  - option b) https://www.freeformatter.com/html-validator.html
+  - oprion c) for Fire fox: I have HTML 5 Validator Add ons plug
 
- Question: No question
- # Homework1
-    To Run index.html: copy file index.html and page1.html from class1 folder to the root of HTML folder 
+ ``` Question: No question
+ ```  Homework1
+ - To Run index.html: copy file index.html and page1.html from class1 folder to the root of HTML folder 
 
  # Class 2 : 
   Learning and practicing style
@@ -115,11 +115,29 @@ Learning how to apply style to a specify component find it by type, id, name. ( 
    Question2: I dont know if the point 5 was implemented properly. 
 #  HomeWork4:
   I need the slides for this class to do it.
-# Class 5 and 6 06102024 /06112024:
+# Class 5 and 6 06102024 : ( in progress )
 Review style "Rounded Corned"
 Review style Shadow: this style can be applied to the boxes and text =>"Box Shadow", "Text Shadow". On class 4 I have an example of box shadow.
 
+# Class 6 second part /06112024: (I started for the middle of the class... in progress )
+More styles ( review)
+Starting with JavaScript
+Learning Fake Anchor (the example is on the <ul>)
+#  HomeWork 6 second part:
+Qustion 1: the last function from "myfirstscript.js" doesnt work. Why?
 
+# Class 7:
+Learning how to use the console log: I can write on the console a big portion of the code and it runs.
+For exemple: var age =18
+console.log("can drink")
+else{
+  console.log("cant)
+}
+With Node.js I can run javascripts outside the browser.
+Learning: how import the scritps
+To comment multiple lines with "//" I need to use contol+/
+Research: how should I use Jquery, because it looks intresting. In the market developers use React, because Jquery is old librery.
+Question : innerHTML doesnt work for me. could you check the file "mysecondscritpt.js"?
 
 # Class: 25062024
  End points to play : https://jsonplaceholder.typicode.com/

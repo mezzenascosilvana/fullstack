@@ -1,0 +1,41 @@
+
+html {
+    padding: 0px;
+    margin: 10px;
+    border: 10px solid greenyellow;
+    background-color: rgb(222, 208, 208);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+body {
+    padding: 10px;
+    margin: 0px;
+    background-color: antiquewhite;
+}
+.logo{    
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(22, 198, 234);
+    padding: 5px;
+}
+.class3{
+    color:white;
+    text-align: center;
+    background-color:rgb(23, 200, 236);
+}
+
+input[type="email"]{
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+}
+
+textarea{
+    padding: 200px;
+    margin: 10px;
+    
+}

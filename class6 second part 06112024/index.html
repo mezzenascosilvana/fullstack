@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS_6 second part &amp; CLASSWORK_6 second part</title>
+    <!-- Learning to use link tag to apply the same style to diferents pages instead repeat style block-->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- Using header and footer, I will modify the default attribute of my header and footer -->
+    <header style="border:3px red solid">
+        <div>
+            <h1 style="margin: 0px 0px 80px 80px" id="class3" name="class3">CLASS_6 second part &amp; CLASSWORK_6 second
+                part (No homework for this class)
+                <img class="logo" src="img/logo.JPG" alt="my logo" />
+            </h1>
+        </div>
+        <div>
+            <h2 id="class3" class="class3" name="class3">CLASS_6 second part</h2>
+        </div>
+        <div class="header-buttons">
+            <button>"hi"</button>
+            <button>"Chao"</button>
+
+        </div>
+        <!-- Using navegation con div -->
+        <div class="nav-container b">
+            <nav>
+                <ul>
+                    <!-- Fake anchor  with onclick method-->
+                    <li><a href="#longText" onclick="loadContent('longText')"> "LongText" </a></li>
+                    <br />
+                    <li><a href="#list"onclick="loadContent('list')"> "List" </a></li>
+                    <br />
+                    <li><a href="#form"onclick="loadContent('form')"> "Myform" </a></li>
+                    <br />
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <textarea class="main-content" id="main-content"> Main Content</textarea>
+        </div>
+    </header>
+</body>
+<!-- calling my js file. it should be in the end of the body for the time  -->
+<script src="js/myfirstscript.js"></script>
+</html>
