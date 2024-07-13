@@ -111,7 +111,7 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 #### WorkClass4: 
 - There isnt homework. 
 - There is a classwork : Page called "workClass4.html"
-1. Question: is there a way to mark all the elements <ol> as bold inside the "style" tag section or I should do individually?
+1. Question: is there a way to mark all the elements "ol" as bold inside the "style" tag section or I should do individually?
 2. Question: I dont know if the point 5 was implemented properly 
 #### HomeWork4:
 - I need the slides for this class to do it
