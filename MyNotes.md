@@ -10,6 +10,7 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
  - General concepts
  - Learning what are the structure folder for the framework
  - How can I validate the html sintaxis?
+ - Learning how can provide an style to "MyNotes.md" file : https://docs.readme.com/rdmd/docs/headings
   - 1. https://validator.w3.org/
   - 2. https://www.freeformatter.com/html-validator.html
   - 3. for Fire fox: I have HTML 5 Validator Add ons plug
@@ -25,8 +26,7 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 - Review the "a" and the "href" tag // class 3 I have more practice
 - Introduction to "asid" and "section" tags
 - Example of the page with "<aside>" is RTE website
-
-1. $${\color{red}Question? When should I use in a "style" for example border-radius: 50%; o border-radius: 50px;}$$
+1. Question? When should I use in a "style" for example border-radius: 50%; o border-radius: 50px;
 2. Question? why the table is on the left if I have an style to center the text?
 3. Question? why my video isnt reproducing
  
@@ -139,8 +139,21 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 - With Node.js I can run javascripts outside the browser.
 - Learning: how import the scritps
 - To comment multiple lines with "//" I need to use contol+/
+- Learning: how I should organize the different pages ( contact, page1,) created in a folder called "pages". Also, I learn how can I refer this location inside my index.html.
 - Research: how should I use Jquery, because it looks intresting. In the market developers use React, because Jquery is old librery.
 1. Question : innerHTML doesnt work for me. could you check the file "mysecondscritpt.js"?
+** **
+### Class 8:
+- Learning: how can use the console// OPEN file "scriptClass8.js"
+  - You can load all the script that you want into your index 
+  - Loading my script into ny .js file 
+  - How define an object and call it.
+  - How define a function inside an onbject and call it.
+  - How use prompt command
+  -
+- Book to read : Domain-Driven Design :Tackling Complexity in the Heart of Software(https://www.awesomebooks.com/book/9780321125217/domain-driven-design?gad_source=1&gclid=CjwKCAjwy8i0BhAkEiwAdFaeGLjTjmTqWHx3IjlL1wtSTc9XZVfA86ZI1tvuAOYFDNXIG44pgfQ2ERoCEQ0QAvD_BwE)
+#### CassWork 8:
+- it is on the .js file called "scriptsClassWork8.js"
 ** **
 ### Class: 25062024
 - End points to play : https://jsonplaceholder.typicode.com/

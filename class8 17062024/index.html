@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS_8  &amp; CLASSWORK_8</title>
+    <!-- Learning to use link tag to apply the same style to diferents pages instead repeat style block-->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- Using header and footer, I will modify the default attribute of my header and footer -->
+   
+        <div>
+            <h1 style="margin: 0px 0px 80px 80px" id="class3" name="class3">CLASS_8  &amp; CLASSWORK_8 </h1>  
+            <h2 id="class3" class="class3" name="class3">CLASS_8</h2>
+        </div>
+
+        <!-- Using navegation con div -->
+        <div class="nav-container b">
+            <nav>
+                <ul>
+                    <!-- Fake anchor  with onclick method-->
+                    <li><a href="#page1_class8" onclick="loadContent('page1_class8')"> "Page1 class8 " </a></li>
+                    <br />
+                    <li><a href="#page2_class8"onclick="loadContent('page1_class8')"> "Page2 class8" </a></li>
+                    <br />
+                    <li><a href="#page3_class8"onclick="loadContent('page1_class8')"> "Page3 class8" </a></li>
+                    <br />
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <textarea class="main-content" id="main-content"> Main Content</textarea>
+        </div>
+
+</body>
+
+<!-- calling my js file. it should be in the end of the body for the time  -->
+<script src="js/scriptClassWork8.js"></script>
+
+<!-- I can load all the script that I want in my index page-->
+<!--<script src="js/scriptClass8_1.js"></script>
+<script src="js/scriptClass8.2.js"></script>
+<script src="js/scriptClass8.3.js"></script> >!
