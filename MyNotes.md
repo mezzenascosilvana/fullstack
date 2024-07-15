@@ -155,6 +155,9 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 #### CassWork 8:
 - it is on the .js file called "scriptsClassWork8.js"
 ** **
+### Class 9:
+- Learning: 
+** **
 ### Class: 25062024
 - End points to play : https://jsonplaceholder.typicode.com/
                        https://dog.ceo/dog-api/documentation/breed
