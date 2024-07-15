@@ -26,9 +26,9 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 - Review the "a" and the "href" tag // class 3 I have more practice
 - Introduction to "asid" and "section" tags
 - Example of the page with "<aside>" is RTE website
-1. Question? When should I use in a "style" for example border-radius: 50%; o border-radius: 50px;
-2. Question? why the table is on the left if I have an style to center the text?
-3. Question? why my video isnt reproducing
+1. Question? When should I use in a < style> tag : border-radius: 50%; o border radius: 50px;
+2. Question? Why does the table is on the left if inside my  style tag it is  to center?
+3. Question? why is my video not playing
  
 #### Homework 2 // No homework
 ** **
@@ -37,10 +37,11 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 - Introduction of block with style
 - Each html component like h1 has by default some values (margin, widht, height) but I can modify them with the stlyle block.  
 - I can apply style to my html page and my body.
-  - <! -- Each html component like h1 has by default some values (margin, widht, height) but I can modify them with the
+- Each html component like h1 has by default some values (margin, widht, height) but I can modify them with the
         stlyle block border-radius: round edges width, height: dimentions object-fit: border: color of the border //
-        there is diferent way to select color, rgb , #number or witht name of the color padding : is the distance
-        between the image with the next element <stlyle>
+        there is diferent way to select color, rgb , #number or witht name of the color
+- Padding : is the distance between the image with the next element 
+  - <!--<stlyle>
         html {
         padding: 0px;
         margin: 0px;
@@ -73,9 +74,9 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 - Learning how to add advertising (e.g: page1)
 - Introduction of "form" tag and input
 - To Run index.html: copy file index.htmt, page1.html, page2.html, page3.htl from class3 folder to the root of HTML folder 
- 1. Question1 : if I create a style block on the index page. Only, I can use inside an component with the word property "class = logo"?
- 2. Question2: On the page1 the style.css file was not apply to the "section","div". Why?
- 3. Question3: the <form> tag should be always into the <main> or <footer> block?
+1. Question1 : if I create a style block on the index page. Only, I can use inside a component with the word property "class = logo"? // No need to ask
+2. Question 2: On the page 1 the style.css file was not apply to the "section","div". Why?
+3. Question 3: the <form> tag should be always into the <main> or <footer> block?
 #### Homework3 ## No homework 
 ** **
 ### Class4: in progress
