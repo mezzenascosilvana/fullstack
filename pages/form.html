@@ -1,0 +1,102 @@
+<style>
+    body {
+        background-color: bisque;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+    }
+
+    form {
+        font-family: 'Times New Roman', Times, serif;
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 5px solid rgb(94, 37, 238);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(27, 26, 29);
+    }
+
+    form label {
+        font-size: larger;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    form input {
+        border: 5px solid rgb(94, 37, 238);
+        size: 24;
+    }
+
+    form button {
+        font-size: larger;
+        background-color: rgb(35, 221, 215);
+        border: 5px solid rgb(35, 221, 215);
+        margin: 10px;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+
+    form label span {
+        display: block;
+        width: 300px; ;
+        float: left;
+    }
+
+    input[type="email"]{
+        background-color: rgb(44, 170, 77);
+    }
+    input#name:hover{
+        background-color: rgb(184, 36, 43);
+        border: 5px solid #35ca70;
+    }
+
+    button[type="submit"]:hover {
+        background-color: black;
+        color:aliceblue;
+    }
+
+</style>
+
+<form class ="contact-form" id ="contact-form">
+    <fieldset>
+        <legend> Personal Data</legend>
+        <label for="name">
+            <span> Name: </span>
+            <input id="name" name="name" type="text" required />
+        </label>
+        <label for="mail">
+            <span> Email: </span>
+            <input id="mail" name="email" type="email" required />
+        </label>
+        <label for="dob"> <!--Date of birth (dob)-->
+            <span>Date of birth: </span>
+            <input id="dob" name="dob" type="date" required />
+        </label>
+        <label for="country">
+            <span>Country: </span>
+            <select id="country" name="country" required>
+                <option value="arg">Argentina</option>
+                <option value="sp">Spain</option>
+                <option value="br">Brazil</option>
+                <option selected value="ie">Ireland</option>
+            </select>
+        </label>
+        <label>
+            <span>Description: </span>
+            <textarea name="description" required> </textarea>
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend> Education</legend>
+        <label>
+            <span> College Name: </span>
+            <input id="college" name="college" type="text" required />
+        </label>
+        <label>
+            <input type="checkbox" name="offers" required />
+            <span> Mark if you finish the college: </span>
+        </label>
+    </fieldset>
+    <div>
+        <button type="submit"> Submit</button>
+    </div>
+</form>

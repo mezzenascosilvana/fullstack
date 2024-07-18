@@ -129,7 +129,7 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 
 #### HomeWork 6 second part:
 1. Qustion: the last function from "myfirstscript.js" doesnt work. Why?
-
+  - The problem was: I was using a textarea. I change the component and the code is working
 ** **
 ### Class 7:
 - Learning how to use the console log: I can write on the console a big portion of the code and it runs.
@@ -143,6 +143,7 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 - Learning: how I should organize the different pages ( contact, page1,) created in a folder called "pages". Also, I learn how can I refer this location inside my index.html.
 - Research: how should I use Jquery, because it looks intresting. In the market developers use React, because Jquery is old librery.
 1. Question : innerHTML doesnt work for me. could you check the file "mysecondscritpt.js"?
+  - The problem was: I was using a textarea. I change the component and the code is working
 ** **
 ### Class 8:
 - Learning: how can use the console// OPEN file "scriptClass8.js"
@@ -157,7 +158,16 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 - it is on the .js file called "scriptsClassWork8.js"
 ** **
 ### Class 9:
-- Learning: 
+- Rememaber the onclik is an event to load your content "loadContent" (see your: index.html)
+- Imposible to undertand this class, I need to create a new repo with a very very detail explanation to show my doubts
+#### CassWork 9:
+- in Progress
+### Class 10:
+- Normal loop
+- Review array.forEach(element)..... loop
+- Review the 10 last minutes where I have interaction between the html and the loops
+
+#### CassWork 10: In progress
 ** **
 ### Class: 25062024
 - End points to play : https://jsonplaceholder.typicode.com/

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLASS_9  &amp; CLASSWORK_9 &amp; HOMEWORK_9</title>
+    <title>CLASS_9  &amp; CLASSWORK_9</title>
     <!-- Learning to use link tag to apply the same style to diferents pages instead repeat style block-->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -13,28 +13,31 @@
     <!-- Using header and footer, I will modify the default attribute of my header and footer -->
    
         <div>
-            <h1 style="margin: 0px 0px 80px 80px" id="class3" name="class3">CLASS_9  &amp; CLASSWORK_9 &amp; HOMEWORK_9 </h1>  
+            <h1 style="margin: 0px 0px 80px 80px" id="class3" name="class3">CLASS_9  &amp; CLASSWORK_9</h1>  
             <h2 id="class3" class="class3" name="class3">CLASS_9</h2>
         </div>
-
         <!-- Using navegation con div -->
         <div class="nav-container b">
             <nav>
                 <ul>
-                    <!-- Fake anchor  with onclick method-->
-                    <li><a href="#page1_class9" onclick="loadContent('page1_class9')"> "Page1 class9 " </a></li>
+                    <!-- Fake anchor  with onclick event -->
+                    <li><a href="#longText" onclick="loadContent('longText')"> "LongText" </a></li>
                     <br />
-                    <li><a href="#page2_class9"onclick="loadContent('page1_class9')"> "Page2 class9" </a></li>
+                    <li><a href="#list"onclick="loadContent('list')"> "List" </a></li>
+                    <br />
+                    <li><a href="./pages/form.html"> "Myform" </a></li>
                     <br />
                 </ul>
             </nav>
         </div>
         <div>
-            <textarea class="main-content" id="main-content"> Main Content</textarea>
+            <div class="main-content" id="main-content"> Main Content</div>
         </div>
 
 </body>
 
 <!-- calling my js file. it should be in the end of the body for the time  -->
-<script src="js/scriptClassWork9.js"></script>
+<script src="js/mysecondscript.js"></script>
+<script src="js/validationClass9.js"></script>
 
+</html>
