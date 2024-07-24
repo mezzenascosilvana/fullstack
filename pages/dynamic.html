@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" contact="Paola Lucero" />
+    <title>Class11 24-06-2024</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script>
+        const searchParams = new URLSearchParams(window.location.search);
+        console.log('the POST id passed is:', searchParams.get('postId'));// I am passing dynamically the id
+        function loadPost(postId) { // I am using the postId I have got before
+             // connect to the server and I passed the postId
+            fetch(`https://jsonplaceholder.tyoicode.com/posts/${postId}`)
+                .then((response) => response.json()) 
+                .then((data) => {
+                    console.log(data);
+                    document.getElementById(`main-content`).innerHTML = `
+                    <h1>${data.title}</h1>
+                    <p>${data.body}</p>
+                    `;
+                });
+        }
+        loadPost(searchParams.get(`postId`))
+    </script>
+</head>
+
+<body class="b">
+    <header>
+        <div class="header-container b">
+            <div class="logo">
+                <a href="../index.html">logo</a>
+            </div>
+            <div class="websitename">Learning Full Stack</div>            
+        </div>   
+    </header>
+    <div>
+        <div class="main-content" id="main-content"> Main Content</div>
+    </div>
+</body>
+</html>

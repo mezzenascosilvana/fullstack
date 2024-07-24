@@ -159,7 +159,11 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 ** **
 ### Class 9:
 - Rememaber the onclik is an event to load your content "loadContent" (see your: index.html)
-- Imposible to undertand this class, I need to create a new repo with a very very detail explanation to show my doubts
+- Imposible to undertand this class. (Studying again 19042024)
+- To rendering the form page on the index.html I should add the id on the "li" tag
+- I was learning how should validate but didnt work well
+Question: crate a video showing the questions
+-
 #### CassWork 9:
 - in Progress
 ### Class 10:
@@ -169,6 +173,28 @@ Html5, CSs and JavaScript Framework ordered by class, also, each class contain t
 
 #### CassWork 10: In progress
 ** **
-### Class: 25062024
+
+### Class 11: 24062024
+- we will use to add dynamic content JsonPlaceHolder 
+- Review status of the method or verbs on w3school website=> https://www.w3schools.com/tags/ref_httpmethods.asp
+- what is Json format? // Reference on w3 website.
+- I can convert my Json in JavaScripts using online websites => https://www.convertsimple.com/
 - End points to play : https://jsonplaceholder.typicode.com/
                        https://dog.ceo/dog-api/documentation/breed
+- When I use a promise there are 3 function that I can use:
+    - a) promise.then // if everething goes well do something
+    - b) promise.cath // if exist an error I can catch this error
+    - c) promise.done // when the promise is done (See picture called promise done on img folder:So, the meaning is done when the flow from the machine 4 to 1 is completed)
+- Read file  fechClass11.js: We learn:
+  - FIRST EXAMEPLE
+  - A BIT OF THEORY: Old and new way to create a function
+  - SIMULATE AN ERROR, Using callback function
+  -If I create a promise with a return ( Long and short way) // image of the error see fetchError on img folder
+
+  ### Class 12: 25062024
+  - Learned MVC pattern: Model es the core of the bussines, Controller is the CRUD operation
+  - Learning the meaning of CRUD => Create, Recovery, Update and Delete.
+  - If I google "show me a CRUD node.js", I will have a lot of tutorials
+      - I can search " show me a CRUD using java and sprint boot"
+  
+
