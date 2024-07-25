@@ -192,9 +192,13 @@ Question: crate a video showing the questions
   -If I create a promise with a return ( Long and short way) // image of the error see fetchError on img folder
 
   ### Class 12: 25062024
-  - Learned MVC pattern: Model es the core of the bussines, Controller is the CRUD operation
+  - Learned MVC pattern: Model es the core of the bussines,View is the index.html, Controller is the CRUD operation
   - Learning the meaning of CRUD => Create, Recovery, Update and Delete.
   - If I google "show me a CRUD node.js", I will have a lot of tutorials
       - I can search " show me a CRUD using java and sprint boot"
+#### ClasWork 12 : In progress
+** **
+### Class 13: 27062024
+
   
 
