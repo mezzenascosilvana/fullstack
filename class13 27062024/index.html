@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD: CLASS_13 &amp; CLASSWORK_13</title>
+    <!-- Format of the data was copy and pasted from W3 school website 
+     "Format HTML table"-->
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CRUD for Product: CLASS_13  &amp; CLASSWORK_13<</h1>
+    <div id="product-container">
+      <form id="postForm">
+        <label for="title">Title</label>
+        <input type="text" id="title" placeholder="Title" />
+        <br />
+        <label for="title">Price</label>
+        <input type="number" id="price" placeholder="Price" />
+        <br />
+        <input type="submit" value="Add Product" />
+      </form>
+      <!-- this is to show the product on the UI-->
+      <table id="product-list"></table> 
+    </div>
+  </body>
+  <script src="js/crud.js"></script>
+</html>

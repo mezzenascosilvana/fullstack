@@ -199,6 +199,14 @@ Question: crate a video showing the questions
 #### ClasWork 12 : In progress
 ** **
 ### Class 13: 27062024
+- Learning where I can find API to practice or consume on my final proyect:  https://dummyjson.com/  => this is free
+- Also there are private API that I can use or consume 
+- The index and the CRUD was provided by the teacher: we use a dumyjson.com to create and read data.
+#### ClasWork 13 : 
+- I added the method Update and Delete, but I cannot see the diference.
+
+** **
+### Class 14: 01072024
 
   
 
