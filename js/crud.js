@@ -83,7 +83,7 @@ class ProductController {
 
 
 // when the view is ready to use by the client
-document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", () => {
   const productController = new ProductController();
   productController.readProducts();
 

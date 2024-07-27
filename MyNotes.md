@@ -207,6 +207,19 @@ Question: crate a video showing the questions
 
 ** **
 ### Class 14: 01072024
+- Learning about Node.js
+- to verify the version u should write node -v and the npm -v. if I get a version it is because the node is fully installed. 
+- We are learning node because I have a request that is comming from the cliente and the server that is writting in node will be reply the request
 
-  
-
+** **
+### Class 15: 02072024
+- Remember what is MVC: Model View Controller
+- API: Application Programming Interface
+- Rest API- Representational State Tranfer API
+- Lean Arquiteture or S.O.L.I.D Principles
+-  Single Responsabielity Principle ( the meanin of S is from SOLID)
+- Install npm install --save-dev nodemon . this package help doent start and stop the server
+- START THE SERVER
+ - We wrapped inside package.json/"script":
+   - a) we create "start": 
+ - So instead to to execute "server npm" we can execute 
