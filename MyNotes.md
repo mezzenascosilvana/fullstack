@@ -219,7 +219,22 @@ Question: crate a video showing the questions
 - Lean Arquiteture or S.O.L.I.D Principles
 -  Single Responsabielity Principle ( the meanin of S is from SOLID)
 - Install npm install --save-dev nodemon . this package help doent start and stop the server
-- START THE SERVER
- - We wrapped inside package.json/"script":
-   - a) we create "start": 
- - So instead to to execute "server npm" we can execute 
+- START THE SERVER with npm 
+ -  In my case : 
+  -a) cd js
+  -b) node server.js // thsi comman run the server and I will see Server running at http://127.0.0.1:3000/
+- START THE SERVER with nodemon
+- We wrapped inside package.json/"script":
+   - a) we create "start":
+   - b) I should create a index.js on the root of the proyect and pass everything that I have in my server to this file
+   - THE FOLDER SERVER IS MY BACKEND
+   - Because we arent interact with the front end we install  "Thunder client" extension . This extension will help to sent a request witout writting any javascript
+    - On the side menu I will see a thunder simbole, I should press on it an it simulate like a Postman.
+  - TODO LO QUE NECESITO DE ESTA CLASE ESTA EN LA CARPETA SERVER.
+
+#### ClasWork 15 :  pending
+ - ToDo the same with product endpoints. 
+
+** **
+### Class 16: 04072024
+-

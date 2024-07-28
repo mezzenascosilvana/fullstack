@@ -4,55 +4,40 @@ const url = require("url");
 const hostname = "127.0.0.1";
 const port = 3000;
 
-const server = http.createServer((request, response) => {
-  console.log("Request URL: ", request.url);
-  const { query, pathname } = url.parse(request.url, true);
-  console.log("method: ", request.method);
-  console.log("Pathname: ", pathname);
-  response.writeHead(200, {
-    "Content-Type": "application/json",
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Headers": "*",
-    "Access-Control-Allow-Methods": "*",
-  });
+// create the server this is responsable to handle reeuest and response
+// that means :if someone try to access to my server to this endpoint http://localhost:3000/api
+// the server should response for example https://localhost:3000/api/product/1 ==> so here we use UPDATe, DELETE, etc
 
-  if (request.method === "GET") {
-    console.log("GET request received");
-    handleGetRequest(request, response);
+
+const server = http.createServer((request, response) => {
+  response.statusCode = 200;
+  response.setHeader("Content-Type", "text/plain");
+  response.end("hello");
+ /** Before SOLID 
+  //I shluld do 2 verification the api and the method
+  if(request.url== `/api/product/` && request.method ==="DELETE"){
+    //delete product
   }
-  if (request.method === "POST" && pathname === "/submit") {
-    console.log("POST request received");
-    handlePostRequest(request, response);
+  //I shluld do 2 verification the api and the method
+  if(request.url== `/api/product/` && request.method ==="UPDATE"){
+    //update product
   }
-  response.end();
+  //I shluld do 2 verification the api and the method
+  if(request.url== `/api/user/` && request.method ==="DELETE"){
+    //delete user
+  }
+  if(request.url== `/api/user/` && request.method ==="DELETE"){
+    //update user
+  }
+  // every time I need to add an new endpoint I should repeat this 
+  //if with the endpoint and the method. That isnt really good for 
+  // this reason we will learn is SOLID
+  **********************/
+ 
 });
 
-function handlePostRequest(request, response) {
-  var body = "";
-  request.on("data", (chunk) => {
-    body += `${chunk}`;
-  });
-  request.on("end", () => {
-    const parsedBody = JSON.parse(body);
-    console.log(parsedBody);
-    const json = { message: parsedBody.name };
-    const result = JSON.stringify(json);
-    response.write(result);
-  });
-}
+  
 
-function handleGetRequest(request, response) {
-  const json = {
-    userId: 1,
-    id: 1,
-    title:
-      "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-    body: "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-  };
-  const jsonForWeb = JSON.stringify(json);
-  response.write(jsonForWeb);
-  response.end();
-}
 
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
