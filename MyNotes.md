@@ -211,6 +211,7 @@ Question: crate a video showing the questions
 - to verify the version u should write node -v and the npm -v. if I get a version it is because the node is fully installed. 
 - We are learning node because I have a request that is comming from the cliente and the server that is writting in node will be reply the request
 
+#### ClasWork 14 : pending
 ** **
 ### Class 15: 02072024
 - Remember what is MVC: Model View Controller
@@ -230,11 +231,23 @@ Question: crate a video showing the questions
    - THE FOLDER SERVER IS MY BACKEND
    - Because we arent interact with the front end we install  "Thunder client" extension . This extension will help to sent a request witout writting any javascript
     - On the side menu I will see a thunder simbole, I should press on it an it simulate like a Postman.
-  - TODO LO QUE NECESITO DE ESTA CLASE ESTA EN LA CARPETA SERVER.
+  - TODO LO QUE NECESITO DE ESTA CLASE ESTA EN LA CARPETA SERVER que se movio a la carpeta src
 
 #### ClasWork 15 :  pending
  - ToDo the same with product endpoints. 
 
 ** **
 ### Class 16: 04072024
--
+- Seguimos trabajando en el backend, carpeta src y agregamos homeControllers y homeRoutes
+- Todo lo que estaba en la carpeta server para seguir los estandares de node se movio a la carpeta src
+- Para visualiar lo que hice en la clase 16 tengo que abrir el navegador y colocar : http://127.0.0.1:3000 y voy  ver el mensaje que esta en el homeControllers linea 9
+- Learning about filesystem.
+  - Se debe parar el server 
+  - Se creo un archivo llamado file-system.handler.js que te genera archivos en el root del proyecto tipeando en la consola
+  node file-system.handler.js. si todo sale bien veras el archivo creado llamado "test.txt" sino tendras un error por consola
+  - Me quede en la mitad.. clase muy dificil... volver a verla
+#### ClasWork 16 :  pending
+ - ToDo tengo que hacer un endpoind que descargue mi cv.
+
+### Class 17: 08072024
+- Learning Express: it is a framework

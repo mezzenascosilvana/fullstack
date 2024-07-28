@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This Page is served by Express</title>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        fetch('http://localhost:3000/api/v1/products')
+          .then((res) => res.json())
+          .then((data) => {
+            console.log(`calling read data`, data);
+            const producs = document.getElementById('product-list');
+            data.products.forEach((product) => {
+              let newElement = document.createElement('tr');
+              newElement.innerHTML += `
+            <td>${product.id}</td>
+            <td><a href='${product.id}'>${product.title}</a></td>
+            <td>${product.price}</td>
+            <td>Update</td>
+            <td>Delete</td>
+            `;
+              producs.appendChild(newElement);
+            });
+          })
+          .catch((error) => console.error('Error:', error));
+      });
+    </script>
+  </head>
+  <body>
+    <h1>This example duplicates the requests to server</h1>
+    <table id="product-list"></table>
+  </body>
+</html>
